@@ -1,5 +1,5 @@
 import React from 'react';
-import components from '../components/index';
+import {ListView} from '../components';
 import './MainPage.css';
 
 function MainPage () {
@@ -9,12 +9,9 @@ function MainPage () {
                 Header
             </div>
             <div>
-                <components.ListView>
-                    
-                </components.ListView>
-                <components.Login>
-                    
-                </components.Login>
+                <ListView>
+
+                </ListView>
             </div>
             <div className='main_footer'>
                 Footer

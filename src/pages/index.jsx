@@ -1,5 +1,4 @@
-import MainPage from "./MainPage"
+import MainPage from "./MainPage";
+import LoginPage from "./LoginPage";
 
-const pages = {MainPage};
-
-export default pages;
+export {MainPage, LoginPage};
