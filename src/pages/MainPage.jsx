@@ -1,21 +1,17 @@
 import React from 'react';
-import {ListView} from '../components';
+import {ListView, Header, Footer} from '../components';
 import './MainPage.css';
 
 function MainPage () {
     return (
         <>
-            <div className='main_header'>
-                Header
-            </div>
+            <Header/>
             <div>
                 <ListView>
 
                 </ListView>
             </div>
-            <div className='main_footer'>
-                Footer
-            </div>
+            <Footer/>
         </>
     );
 }
